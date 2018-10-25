@@ -1,0 +1,261 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs"
+    Inherits="MasterPage1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <style type="text/css">
+        .style1
+        {
+            text-align: justify;
+        }
+        .style2
+        {
+            float: left;
+            width: 305px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <form id="ss" runat="server">
+    <div id="bg_clouds">
+        <div id="main">
+            <!-- header begins -->
+            <div id="header">
+                <div id="logo">
+                   <center><a href="#" style="float:inherit;font-family:Vani;font-size:xx-large;">CLOUD MULTIMEDIA SYSTEM</a></center>
+                </div>
+                <div id="buttons">
+                    <asp:HyperLink CssClass="but" ID="HyperLink1" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>
+                    <asp:HyperLink CssClass="but" ID="HyperLink2" runat="server" NavigateUrl="~/Owner_login.aspx">Cloud Owner</asp:HyperLink>
+                    <asp:HyperLink CssClass="but" ID="HyperLink3" runat="server" NavigateUrl="~/Galary.aspx">Media Galary</asp:HyperLink>
+                    <asp:HyperLink CssClass="but" ID="HyperLink4" runat="server" NavigateUrl="~/Login.aspx">Service</asp:HyperLink>
+                </div>
+            </div>
+            <!-- header ends -->
+            <div class="top_top">
+            </div>
+            <div class="top">
+                <div id="wrapper">
+                    <div id="slider-wrapper">
+                        <div id="slider" class="nivoSlider">
+                            <img src="images/top.jpg" alt="" />
+                            <img src="images/music_2.jpg" alt="" />
+                            <img src="images/top3.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript" src="lib/jquery-1.4.3.min.js"></script>
+                <script type="text/javascript" src="lib/jquery.nivo.slider.pack.js"></script>
+                <script type="text/javascript">
+                    $(window).load(function () {
+                        $('#slider').nivoSlider();
+                    });
+                </script>
+            </div>
+            <div class="top_bot">
+            </div>
+            <div style="height: 17px">
+            </div>
+            <!-- content begins -->
+            <div class="cont_top">
+            </div>
+            <div id="content">
+                <div class="cont_home_bot">
+                    <div class="style2">
+                        <img src="images/img11.png" class="img_l" style="padding-bottom: 30px;" alt="" />Video
+                        is a sequence of images/frames displayed at a certain rate.Digitized video, like
+                        digitized audio, is also transmitted as a stream of discrete packets over the network.
+                    </div>
+                    <div style="width: 18px; height: 26px; float: left;">
+                    </div>
+                    <div class="style2">
+                        <img src="images/aa.png" class="img_l" style="padding-bottom: 20px;" alt="" height="80"
+                            width="80" />Digitized audio media is transmitted as a stream of discrete packets
+                        over the network. The bandwidth requirements of digitized audio depend on its dynamic
+                        range and/or spectrum.
+                    </div>
+                    <div style="width: 18px; height: 26px; float: left;">
+                    </div>
+                    <div class="style2">
+                        <img src="images/img13.png" class="img_l" style="padding-bottom: 20px;" alt="" />3G
+                        cellular service is moving to a converged IP transport.Dialogic has a history of
+                        delivering innovative technology for Enhanced and Value-Added Services. network
+                        that handles data, voice, and video.
+                    </div>
+                    <div style="clear: both">
+                    </div>
+                </div>
+                <div style="height: 10px">
+                </div>
+                <div class="razd_h">
+                </div>
+                <div style="height: 10px">
+                </div>
+                <div style="height: 25px">
+                    <h1 style="display: block; width: 300px; float: left">
+                        Cloud Multimedia
+                    </h1>
+                    <h1 style="display: block; width: 316px; float: right">
+                        Upcoming Technology </h1>
+                </div>
+                <div class="razd_lr_h">
+                    <div id="left_h">
+                        <div class="style1">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The use of computers
+                            to present text, graphics, video, animation, and sound in an integrated way. Long
+                            touted as the future revolution in computing, multimedia applications were, until
+                            the mid-90s, uncommon due to the expensive hardware required. With increases in
+                            performance and decreases in price, however, multimedia is now commonplace. Nearly
+                            all PCs are capable of displaying video, though the resolution available depends
+                            on the power of the computer's video adapter and CPU.
+                        </div>
+                        <div style="height: 10px">
+                        </div>
+                        <h1 style="text-align: center">
+                            Features of CMS
+                        </h1>
+                        <div style="height: 15px">
+                        </div>
+                        <div style="background: url(images/razd_lr.gif) 278px repeat-y; width: 504px; padding-left: 35px;">
+                            <div style="float: left; width: 216px;">
+                                <ul class="spis_1">
+                                    <li><a href="#">Animation</a></li>
+                                    <li><a href="#">Sound/Audio</a></li>
+                                    <li><a href="#">Video</a></li>
+                                    <li><a href="#">Image</a></li>
+                                </ul>
+                            </div>
+                            <div style="float: right; width: 205px;">
+                                <div class="lh">
+                                    <b>Still images, Graphics and Animation</b>
+                                    <br />
+                                    This includes static media types like digital images and dynamic media types like
+                                    flash presentations. An uncompressed, digitally encoded image consists of an array
+                                    of pixels, with each pixel encoded in a number of bits to represent luminance and
+                                    color
+                                </div>
+                            </div>
+                            <iv style="clear: both">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="right_h">
+                        <div class="style1">
+                        ->This year at CES, the buzz is about smart TVs that stream content and have apps.
+                                 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Samsung and LG are showing off smart TVs that run applications such as games and connect to movie-streaming services like Netflix.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&gt; Lenovo is showing a TV based on Android 4.0 with natural language processing and speech recognition technology.
+
+                                 <br />
+
+ &nbsp;&nbsp;&nbsp;&nbsp;
+
+ ->Glasses-free 3D techwill continue to improve as manufacturers find different ways.
+
+                           
+                        </div>
+                    </div>
+                    <div style="clear: both">
+                    </div>
+                </div>
+            </div>
+            <div class="cont_bot">
+            </div>
+            <!-- content ends -->
+            <div style="height: 15px">
+            </div>
+            <!-- bottom begin -->
+            <div id="bottom_bot">
+                <div id="bottom">
+                    <div id="b_col1">
+                        <h1>
+                            Useful Resources</h1>
+                        <div style="height: 10px">
+                        </div>
+                        <ul class="spis_bot">
+                            <li><a href="#">Weather reports sent with map images </a></li>
+                            <li><a href="#">Stock quotes with trending information in graph form</a></li>
+                            <li><a href="#">Key moments from the day’s sporting events</a></li>
+                            <li><a href="#">Text messages with animations</a></li>
+                        </ul>
+                    </div>
+                    <div id="b_col2">
+                        <h1>
+                            Contact Information</h1>
+                        <div style="height: 20px">
+                        </div>
+                        <div style="padding-left: 10px">
+                            <div class="box_us">
+                                <div class="box_us_l">
+                                    <img src="images/fish_us1.png" alt="" />
+                                </div>
+                                <div class="box_us_r">
+                                    <b class="lh">Kamaraj Street, CH 600 004</b>
+                                </div>
+                                <div style="clear: both; height: 10px;">
+                                </div>
+                            </div>
+                            <div class="box_us">
+                                <div class="box_us_l">
+                                    <img src="images/fish_us2.png" alt="" />
+                                </div>
+                                <div class="box_us_r">
+                                    <b class="lh">Phone: 1(234) 567 8910<br />
+                                        Fax: 1(234) 567 8910 </b>
+                                </div>
+                                <div style="clear: both; height: 10px;">
+                                </div>
+                            </div>
+                            <div class="box_us">
+                                <div class="box_us_l">
+                                    <img src="images/fish_us3.png" alt="" />
+                                </div>
+                                <div class="box_us_r">
+                                    <b class="lh">E-mail: cloudinfo@cloud.co.in</b>
+                                </div>
+                                <div style="clear: both; height: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="b_col3">
+                        <h1>
+                            Share with Others</h1>
+                        <div style="height: 15px">
+                        </div>
+                        <ul>
+                            <li>
+                                <img src="images/fu_i1.png" class=" fu_i" alt="" /><a href="#">Subscribe to Blog</a></li>
+                            <li>
+                                <img src="images/fu_i2.png" class=" fu_i" alt="" /><a href="#">Be a fan on Facebook</a></li>
+                            <li>
+                                <img src="images/fu_i3.png" class=" fu_i" alt="" /><a href="#">RSS Feed</a></li>
+                            <li>
+                                <img src="images/fu_i4.png" class=" fu_i" alt="" /><a href="#">Follow us on Twitter</a></li>
+                        </ul>
+                    </div>
+                    <div style="clear: both; height: 20px;">
+                    </div>
+                </div>
+            </div>
+            <!-- bottom end -->
+            <!-- footer begins -->
+            <div id="footer">
+                Copyright 2014.
+                <!-- Do not remove -->
+                <a href="http://www.metamorphozis.com/free_templates/free_templates.php" title="Free Web Templates">
+                </a>,Contact Mail:cloudinfo@cloud.co.in <a href="http://www.myfreecsstemplates.com/"
+                    title="Free CSS Templates"></a>
+                <!-- end -->
+                <br />
+            </div>
+            <!-- footer ends -->
+        </div>
+    </div>
+    </form>
+</body>
+</html>
